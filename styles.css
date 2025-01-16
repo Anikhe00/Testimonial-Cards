@@ -36,6 +36,10 @@ html:focus-within {
 
 body {
   min-height: 100vh;
+  display: grid;
+  /* justify-content: center;
+  align-items: center; */
+  place-items: center;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: #ECF2F8;
@@ -43,11 +47,11 @@ body {
 
 .main-container {
   display: grid;
-  place-items: center;
   gap: 1.5rem;
   margin-inline: auto;
   padding-block: 2rem;
   width: min(95%, 78rem);
+  height: auto;
 }
 
 
